@@ -68,6 +68,9 @@ function main() {
                     sunriseEl.innerText = `Sunrise: ${data.results.sunrise}`
                     sunsetEl.innerText  = `Sunset: ${data.results.sunset}`
                 })
+                .catch(error => {
+                    console.log(error)
+                })
         })
     }
 
