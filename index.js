@@ -14,8 +14,6 @@ function main() {
 
     // Astronomical Image
 
-
-
     /*
     1.fetch
     2.respons.json()
